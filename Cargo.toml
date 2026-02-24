@@ -1,0 +1,11 @@
+[package]
+name = "rust_clap_kickstart"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "clap"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.60", features = ["cargo"] }
